@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/HW6-react/static/css/main.06aebbd4.chunk.css",
+    "main.js": "/HW6-react/static/js/main.c1b452ef.chunk.js",
+    "main.js.map": "/HW6-react/static/js/main.c1b452ef.chunk.js.map",
+    "runtime-main.js": "/HW6-react/static/js/runtime-main.efc2cd2b.js",
+    "runtime-main.js.map": "/HW6-react/static/js/runtime-main.efc2cd2b.js.map",
+    "static/js/2.2c890f36.chunk.js": "/HW6-react/static/js/2.2c890f36.chunk.js",
+    "static/js/2.2c890f36.chunk.js.map": "/HW6-react/static/js/2.2c890f36.chunk.js.map",
+    "index.html": "/HW6-react/index.html",
+    "precache-manifest.b6dbe5db6c6181695ebc254a953e0d63.js": "/HW6-react/precache-manifest.b6dbe5db6c6181695ebc254a953e0d63.js",
+    "service-worker.js": "/HW6-react/service-worker.js",
+    "static/css/main.06aebbd4.chunk.css.map": "/HW6-react/static/css/main.06aebbd4.chunk.css.map",
+    "static/js/2.2c890f36.chunk.js.LICENSE.txt": "/HW6-react/static/js/2.2c890f36.chunk.js.LICENSE.txt",
+    "static/media/comment.svg": "/HW6-react/static/media/comment.0ec68f32.svg",
+    "static/media/likes.svg": "/HW6-react/static/media/likes.70ebbcd1.svg",
+    "static/media/repost.svg": "/HW6-react/static/media/repost.10951a97.svg",
+    "static/media/share.svg": "/HW6-react/static/media/share.3df4d79c.svg",
+    "static/media/tick.svg": "/HW6-react/static/media/tick.4ee74cc7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efc2cd2b.js",
+    "static/js/2.2c890f36.chunk.js",
+    "static/css/main.06aebbd4.chunk.css",
+    "static/js/main.c1b452ef.chunk.js"
+  ]
+}
