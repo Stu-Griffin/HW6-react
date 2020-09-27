@@ -1,0 +1,23 @@
+.another-possibility {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+.icon-and-his-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon {
+    width: 1.5rem;
+}
+.amount {
+    margin-left: 0.5rem;
+}
+.key{
+    visibility: hidden;
+}
+.button-counter {
+    border: none !important;
+    background: white;
+}

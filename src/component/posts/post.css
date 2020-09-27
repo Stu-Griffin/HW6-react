@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+.post {
+    border: 1px solid gray;
+    border-radius: 15px;
+    max-width: 50rem;
+    margin: auto;
+}
+.author-inf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.avatar {
+    border-radius: 1000px;
+    width: 4rem;
+}
+.inf {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.name {
+    font-weight: bolder;
+}
+.sended-icon {
+    width: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.saparated {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.between-line {
+    border-bottom: 1px solid gray;
+    width: 48rem;
+    margin: auto;
+}
+.main-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.photo {
+    max-width: 46rem;
+    min-width: 30rem;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.posibility-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
