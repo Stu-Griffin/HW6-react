@@ -56,16 +56,13 @@ class Posts extends Component {
     data: [...postMainInf], 
     modalIsOpen: false,
 
-    // nameValue: "",
     authorName: createStore(rootReducer, ""),
 
-    // imgValue: "",
     imgPublication: createStore(rootReducer, ""),
 
     textValue: "",
     textPublication: createStore(rootReducer, ""),
 
-    // avatarValue: "",
     authorAvatar: createStore(rootReducer, ""),
   };
   openModal = () =>  {
@@ -87,30 +84,12 @@ class Posts extends Component {
       data: [...postMainInf]
     })
   }
-  // changeNameValue = (event) => {
-  //     this.setState({
-  //       nameValue: event.target.value,
-  //       authorName: createStore(rootReducer, event.target.value),
-  //     })
-  // }
-  // ChangeImgValue = (event) => {
-  //   this.setState({
-  //     imgValue: event.target.value,
-  //     imgPublication: createStore(rootReducer, event.target.value),
-  //   })
-  // }
   changeTextValue = (event) => {
     this.setState({
       textValue: event.target.value,
       textPublication: createStore(rootReducer, event.target.value),
     })
   }
-  // ChangeAvatarValue = (event) => {
-  //   this.setState({
-  //     avatarValue: event.target.value,
-  //     authorAvatar: createStore(rootReducer, event.target.value),
-  //   })
-  // }
   selectAuthor = () => {
     var item1 = document.getElementById('selectAuthor').options[document.getElementById('selectAuthor').selectedIndex].value;
     (item1 === "anakin") ? this.setState({
@@ -142,10 +121,7 @@ class Posts extends Component {
                     <option value="anakin">Anakin</option>
                     <option value="luke">Luke</option>
                   </select>
-                  {/* <input placeholder="avatar" value={this.state.avatarValue} onChange={this.ChangeAvatarValue}/> */}
-                  {/* <input placeholder="name" value={this.state.nameValue} onChange={this.ChangeNameValue}/> */}
                   <input placeholder="text" value={this.state.textValue} onChange={this.changeTextValue}/>
-                  {/* <input placeholder="img" value={this.state.imgValue} onChange={this.ChangeImgValue}/> */}
                   <select id="selectImg" onChange={this.selectImg}>
                     <option>Select your img</option>
                     <option value="anakinImg">Anakin</option>
