@@ -19,6 +19,7 @@ body {
 .avatar {
     border-radius: 1000px;
     width: 4rem;
+    height: 4rem;
 }
 .inf {
     display: flex;

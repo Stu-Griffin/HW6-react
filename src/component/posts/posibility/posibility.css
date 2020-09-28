@@ -20,4 +20,5 @@
 .button-counter {
     border: none !important;
     background: white;
+    outline: none;
 }
