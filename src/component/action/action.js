@@ -1,11 +1,12 @@
-// import {increment, decrement} from './types.js';
+export const increment = "+";
+export const decrement = "-";
 export function Increment() {
     return {
-        type: "+",
+        type: increment,
     }
 }
 export function Decrement() {
     return {
-        type: "-",
+        type: decrement,
     }
 }

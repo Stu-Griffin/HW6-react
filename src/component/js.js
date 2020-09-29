@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 import Post from "./posts/post.jsx";
-import { rootReducer } from "./rootReducer/rootReducer.js";
+import {rootReducer} from "./rootReducer/rootReducer.js";
 import {createStore } from 'redux';
 
 import messageIcon from "../assets/img/comment.svg";
@@ -57,12 +57,9 @@ class Posts extends Component {
     modalIsOpen: false,
 
     authorName: createStore(rootReducer, ""),
-
     imgPublication: createStore(rootReducer, ""),
-
     textValue: "",
     textPublication: createStore(rootReducer, ""),
-
     authorAvatar: createStore(rootReducer, ""),
   };
   openModal = () =>  {
