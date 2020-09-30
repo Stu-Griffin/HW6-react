@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HW6-react/static/css/main.aa4d078c.chunk.css",
-    "main.js": "/HW6-react/static/js/main.1af55574.chunk.js",
-    "main.js.map": "/HW6-react/static/js/main.1af55574.chunk.js.map",
+    "main.js": "/HW6-react/static/js/main.30c57d1c.chunk.js",
+    "main.js.map": "/HW6-react/static/js/main.30c57d1c.chunk.js.map",
     "runtime-main.js": "/HW6-react/static/js/runtime-main.efc2cd2b.js",
     "runtime-main.js.map": "/HW6-react/static/js/runtime-main.efc2cd2b.js.map",
     "static/js/2.2c890f36.chunk.js": "/HW6-react/static/js/2.2c890f36.chunk.js",
     "static/js/2.2c890f36.chunk.js.map": "/HW6-react/static/js/2.2c890f36.chunk.js.map",
     "index.html": "/HW6-react/index.html",
-    "precache-manifest.59e9ff5886e7dcd03afeaf2abff2773a.js": "/HW6-react/precache-manifest.59e9ff5886e7dcd03afeaf2abff2773a.js",
+    "precache-manifest.fdf4a566a8b9318eca33b88167103737.js": "/HW6-react/precache-manifest.fdf4a566a8b9318eca33b88167103737.js",
     "service-worker.js": "/HW6-react/service-worker.js",
     "static/css/main.aa4d078c.chunk.css.map": "/HW6-react/static/css/main.aa4d078c.chunk.css.map",
     "static/js/2.2c890f36.chunk.js.LICENSE.txt": "/HW6-react/static/js/2.2c890f36.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.efc2cd2b.js",
     "static/js/2.2c890f36.chunk.js",
     "static/css/main.aa4d078c.chunk.css",
-    "static/js/main.1af55574.chunk.js"
+    "static/js/main.30c57d1c.chunk.js"
   ]
 }
