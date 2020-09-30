@@ -5,7 +5,10 @@ import { rootReducer } from "../../rootReducer/rootReducer.js";
 import {createStore } from 'redux';
 import {Increment, Decrement} from '../../action/action.js';
 const PostAnotherPosibilites = (props) => {
-  const [counter] = useState(createStore(rootReducer, 58));
+  const getRandomBetween = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
+  const [counter] = useState(createStore(rootReducer, (getRandomBetween(50,200))));
   const [button, setButton] = useState(false);
   const pressButton = () => {
     setButton(!button);
